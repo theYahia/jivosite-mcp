@@ -1,12 +1,18 @@
 {
   "name": "@theyahia/jivosite-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for JivoSite API — chats, agents, visitors. 3 tools.",
   "type": "module",
   "main": "dist/index.js",
-  "bin": { "jivosite-mcp": "dist/index.js" },
-  "files": ["dist"],
-  "engines": { "node": ">=18.0.0" },
+  "bin": {
+    "jivosite-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -22,11 +28,26 @@
     "tsx": "^4.19.0",
     "typescript": "^5.7.0"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "mcpName": "io.github.theYahia/jivosite-mcp",
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "claude", "ai", "russian-api", "jivosite", "chat", "crm"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "russian-api",
+    "jivosite",
+    "chat",
+    "crm"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/theYahia/jivosite-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theYahia/jivosite-mcp.git"
+  },
   "homepage": "https://github.com/theYahia/jivosite-mcp#readme",
   "author": "theYahia (https://github.com/theYahia)"
 }
