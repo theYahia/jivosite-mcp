@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "jivosite": {
+      "command": "npx",
+      "args": ["-y", "@theyahia/jivosite-mcp"],
+      "env": {
+        "JIVOSITE_TOKEN": ""
+      }
+    }
+  }
+}
