@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/jivosite-mcp",
   "version": "1.1.0",
-  "description": "MCP server for JivoSite API — chats, agents, contacts, messages, webhooks. 10 tools + 2 skills.",
+  "description": "MCP server for JivoSite — live chat, visitor tracking, agent management (Russia)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -47,7 +47,9 @@
     "chat",
     "crm",
     "webhooks",
-    "contacts"
+    "contacts",
+    "api",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
